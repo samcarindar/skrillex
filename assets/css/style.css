@@ -1,12 +1,78 @@
+body {
+    background-color: #e1e1e1 !important;
+}
+
 .header-navbar {
-    padding: 0.75rem;
     text-align: center;
 }
 
-@media only screen and (max-width: 991px) {
-    .header-navbar {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+.header-navbar .navbar-nav .nav-item a.nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fa0707;
+}
+
+.header-navbar .navbar-nav .nav-item.aactive a.nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fa0707;
+}
+
+.header-navbar .navbar-nav .nav-item a.nav-link:hover {
+    color: #fa0707;
+    opacity: 0.5;
+}
+
+.new-release-content .new-release-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.footer-main-content {
+    padding: 2rem 0.75rem;
+}
+
+.footer-social-content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.footer-social-content .footer-social-link {
+    margin: auto 15px;
+}
+
+.footer-social-content .footer-social-link i {
+    font-size: 48px;
+    width: 50px;
+    color: #fa0707;
+}
+
+.footer-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-body .footer-body-link {
+    color: #fa0707;
+    font-size: 18px;
+    font-weight: 600;
+    margin: auto 8px;
+    text-decoration: none;
+}
+
+.footer-body .footer-body-link span {
+    margin-left: 16px;
+}
+
+@media only screen and (min-width: 992px) {
+    .header-navbar nav.navbar {
+        display: block;
     }
 }
