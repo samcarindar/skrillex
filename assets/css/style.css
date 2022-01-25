@@ -43,7 +43,7 @@ body {
 }
 
 .footer-social-content .footer-social-link {
-    margin: auto 15px;
+    margin: 8px 15px;
 }
 
 .footer-social-content .footer-social-link i {
@@ -63,7 +63,7 @@ body {
     color: #fa0707;
     font-size: 18px;
     font-weight: 600;
-    margin: auto 8px;
+    margin: 8px 8px;
     text-decoration: none;
 }
 
